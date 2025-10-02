@@ -1,1352 +1,3242 @@
 [
   {
-    "id": "1",
-    "title": "Recipe 1",
+    "title": "Spaghetti Carbonara #1",
+    "cuisine": "Italian",
     "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Indian",
     "difficulty": "Medium",
-    "cookingTime": 17,
-    "servings": 2,
+    "cookingTime": 25,
+    "servings": 4,
     "dietaryTags": [
-      "Gluten-Free"
+      "pasta",
+      "comfort food"
     ],
     "ingredients": [
       {
-        "id": "i11",
-        "name": "Ingredient A",
-        "quantity": 101,
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
         "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "1"
+  },
+  {
+    "title": "Chicken Tikka Masala #2",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
         "category": "produce"
       },
       {
         "id": "i12",
-        "name": "Ingredient B",
-        "quantity": 3,
-        "unit": "pcs",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
         "category": "dairy"
       }
     ],
     "instructions": [
       {
         "order": 1,
-        "description": "Step 1: Do something."
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
       },
       {
         "order": 2,
-        "description": "Step 2: Continue cooking."
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
       }
     ],
     "nutrition": {
-      "calories": 205,
-      "protein": 11,
-      "carbs": 32,
-      "fat": 6
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
     },
-    "rating": 3.6
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "2"
   },
   {
-    "id": "2",
-    "title": "Recipe 2",
+    "title": "Spaghetti Carbonara #3",
+    "cuisine": "Italian",
     "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Japanese",
-    "difficulty": "Hard",
-    "cookingTime": 19,
-    "servings": 3,
-    "dietaryTags": [
-      "Vegan"
-    ],
-    "ingredients": [
-      {
-        "id": "i21",
-        "name": "Ingredient A",
-        "quantity": 102,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i22",
-        "name": "Ingredient B",
-        "quantity": 4,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 210,
-      "protein": 12,
-      "carbs": 34,
-      "fat": 7
-    },
-    "rating": 3.7
-  },
-  {
-    "id": "3",
-    "title": "Recipe 3",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Mexican",
-    "difficulty": "Easy",
-    "cookingTime": 21,
-    "servings": 4,
-    "dietaryTags": [
-      "Low-Carb"
-    ],
-    "ingredients": [
-      {
-        "id": "i31",
-        "name": "Ingredient A",
-        "quantity": 103,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i32",
-        "name": "Ingredient B",
-        "quantity": 5,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 215,
-      "protein": 13,
-      "carbs": 36,
-      "fat": 8
-    },
-    "rating": 3.8
-  },
-  {
-    "id": "4",
-    "title": "Recipe 4",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Brazilian",
     "difficulty": "Medium",
-    "cookingTime": 23,
-    "servings": 5,
-    "dietaryTags": [
-      "High-Protein"
-    ],
-    "ingredients": [
-      {
-        "id": "i41",
-        "name": "Ingredient A",
-        "quantity": 104,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i42",
-        "name": "Ingredient B",
-        "quantity": 6,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 220,
-      "protein": 14,
-      "carbs": 38,
-      "fat": 9
-    },
-    "rating": 3.9
-  },
-  {
-    "id": "5",
-    "title": "Recipe 5",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "French",
-    "difficulty": "Hard",
     "cookingTime": 25,
-    "servings": 1,
-    "dietaryTags": [
-      "Pescatarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i51",
-        "name": "Ingredient A",
-        "quantity": 105,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i52",
-        "name": "Ingredient B",
-        "quantity": 7,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 225,
-      "protein": 15,
-      "carbs": 40,
-      "fat": 10
-    },
-    "rating": 4.0
-  },
-  {
-    "id": "6",
-    "title": "Recipe 6",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Italian",
-    "difficulty": "Easy",
-    "cookingTime": 27,
-    "servings": 2,
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i61",
-        "name": "Ingredient A",
-        "quantity": 106,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i62",
-        "name": "Ingredient B",
-        "quantity": 8,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 230,
-      "protein": 16,
-      "carbs": 42,
-      "fat": 11
-    },
-    "rating": 4.1
-  },
-  {
-    "id": "7",
-    "title": "Recipe 7",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Indian",
-    "difficulty": "Medium",
-    "cookingTime": 29,
-    "servings": 3,
-    "dietaryTags": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      {
-        "id": "i71",
-        "name": "Ingredient A",
-        "quantity": 107,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i72",
-        "name": "Ingredient B",
-        "quantity": 9,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 235,
-      "protein": 17,
-      "carbs": 44,
-      "fat": 12
-    },
-    "rating": 4.2
-  },
-  {
-    "id": "8",
-    "title": "Recipe 8",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Japanese",
-    "difficulty": "Hard",
-    "cookingTime": 31,
     "servings": 4,
     "dietaryTags": [
-      "Vegan"
+      "pasta",
+      "comfort food"
     ],
     "ingredients": [
       {
-        "id": "i81",
-        "name": "Ingredient A",
-        "quantity": 108,
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
         "unit": "g",
-        "category": "produce"
+        "category": "pantry"
       },
       {
-        "id": "i82",
-        "name": "Ingredient B",
-        "quantity": 10,
-        "unit": "pcs",
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
         "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
       }
     ],
     "instructions": [
       {
         "order": 1,
-        "description": "Step 1: Do something."
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
       },
       {
         "order": 2,
-        "description": "Step 2: Continue cooking."
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
       }
     ],
     "nutrition": {
-      "calories": 240,
-      "protein": 18,
-      "carbs": 46,
-      "fat": 13
-    },
-    "rating": 4.3
-  },
-  {
-    "id": "9",
-    "title": "Recipe 9",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Mexican",
-    "difficulty": "Easy",
-    "cookingTime": 33,
-    "servings": 5,
-    "dietaryTags": [
-      "Low-Carb"
-    ],
-    "ingredients": [
-      {
-        "id": "i91",
-        "name": "Ingredient A",
-        "quantity": 109,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i92",
-        "name": "Ingredient B",
-        "quantity": 11,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 245,
-      "protein": 19,
-      "carbs": 48,
-      "fat": 14
-    },
-    "rating": 4.4
-  },
-  {
-    "id": "10",
-    "title": "Recipe 10",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Brazilian",
-    "difficulty": "Medium",
-    "cookingTime": 35,
-    "servings": 1,
-    "dietaryTags": [
-      "High-Protein"
-    ],
-    "ingredients": [
-      {
-        "id": "i101",
-        "name": "Ingredient A",
-        "quantity": 110,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i102",
-        "name": "Ingredient B",
-        "quantity": 12,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 250,
+      "calories": 480,
       "protein": 20,
-      "carbs": 50,
-      "fat": 5
+      "carbs": 55,
+      "fat": 18
     },
-    "rating": 4.5
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "3"
   },
   {
-    "id": "11",
-    "title": "Recipe 11",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "French",
-    "difficulty": "Hard",
-    "cookingTime": 37,
-    "servings": 2,
-    "dietaryTags": [
-      "Pescatarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i111",
-        "name": "Ingredient A",
-        "quantity": 111,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i112",
-        "name": "Ingredient B",
-        "quantity": 13,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 255,
-      "protein": 21,
-      "carbs": 52,
-      "fat": 6
-    },
-    "rating": 4.6
-  },
-  {
-    "id": "12",
-    "title": "Recipe 12",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Italian",
-    "difficulty": "Easy",
-    "cookingTime": 39,
-    "servings": 3,
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i121",
-        "name": "Ingredient A",
-        "quantity": 112,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i122",
-        "name": "Ingredient B",
-        "quantity": 14,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 260,
-      "protein": 22,
-      "carbs": 54,
-      "fat": 7
-    },
-    "rating": 4.7
-  },
-  {
-    "id": "13",
-    "title": "Recipe 13",
-    "image": "https://picsum.photos/id/292/200/300",
+    "title": "Chicken Tikka Masala #4",
     "cuisine": "Indian",
-    "difficulty": "Medium",
-    "cookingTime": 41,
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
     "servings": 4,
     "dietaryTags": [
-      "Gluten-Free"
+      "spicy",
+      "curry",
+      "gluten-free"
     ],
     "ingredients": [
       {
-        "id": "i131",
-        "name": "Ingredient A",
-        "quantity": 113,
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
         "unit": "g",
-        "category": "produce"
+        "category": "meat"
       },
       {
-        "id": "i132",
-        "name": "Ingredient B",
-        "quantity": 15,
-        "unit": "pcs",
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
         "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
       },
       {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 265,
-      "protein": 23,
-      "carbs": 56,
-      "fat": 8
-    },
-    "rating": 4.8
-  },
-  {
-    "id": "14",
-    "title": "Recipe 14",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Japanese",
-    "difficulty": "Hard",
-    "cookingTime": 43,
-    "servings": 5,
-    "dietaryTags": [
-      "Vegan"
-    ],
-    "ingredients": [
-      {
-        "id": "i141",
-        "name": "Ingredient A",
-        "quantity": 114,
-        "unit": "g",
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
         "category": "produce"
       },
       {
-        "id": "i142",
-        "name": "Ingredient B",
-        "quantity": 16,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 270,
-      "protein": 24,
-      "carbs": 58,
-      "fat": 9
-    },
-    "rating": 4.9
-  },
-  {
-    "id": "15",
-    "title": "Recipe 15",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Mexican",
-    "difficulty": "Easy",
-    "cookingTime": 45,
-    "servings": 1,
-    "dietaryTags": [
-      "Low-Carb"
-    ],
-    "ingredients": [
-      {
-        "id": "i151",
-        "name": "Ingredient A",
-        "quantity": 115,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i152",
-        "name": "Ingredient B",
-        "quantity": 17,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 275,
-      "protein": 25,
-      "carbs": 60,
-      "fat": 10
-    },
-    "rating": 3.5
-  },
-  {
-    "id": "16",
-    "title": "Recipe 16",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Brazilian",
-    "difficulty": "Medium",
-    "cookingTime": 47,
-    "servings": 2,
-    "dietaryTags": [
-      "High-Protein"
-    ],
-    "ingredients": [
-      {
-        "id": "i161",
-        "name": "Ingredient A",
-        "quantity": 116,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i162",
-        "name": "Ingredient B",
-        "quantity": 18,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 280,
-      "protein": 26,
-      "carbs": 62,
-      "fat": 11
-    },
-    "rating": 3.6
-  },
-  {
-    "id": "17",
-    "title": "Recipe 17",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "French",
-    "difficulty": "Hard",
-    "cookingTime": 49,
-    "servings": 3,
-    "dietaryTags": [
-      "Pescatarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i171",
-        "name": "Ingredient A",
-        "quantity": 117,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i172",
-        "name": "Ingredient B",
-        "quantity": 19,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 285,
-      "protein": 27,
-      "carbs": 64,
-      "fat": 12
-    },
-    "rating": 3.7
-  },
-  {
-    "id": "18",
-    "title": "Recipe 18",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Italian",
-    "difficulty": "Easy",
-    "cookingTime": 51,
-    "servings": 4,
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i181",
-        "name": "Ingredient A",
-        "quantity": 118,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i182",
-        "name": "Ingredient B",
+        "id": "i10",
+        "name": "Ginger",
         "quantity": 20,
-        "unit": "pcs",
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
         "category": "dairy"
       }
     ],
     "instructions": [
       {
         "order": 1,
-        "description": "Step 1: Do something."
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
       },
       {
         "order": 2,
-        "description": "Step 2: Continue cooking."
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
       }
     ],
     "nutrition": {
-      "calories": 290,
-      "protein": 28,
-      "carbs": 66,
-      "fat": 13
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
     },
-    "rating": 3.8
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "4"
   },
   {
-    "id": "19",
-    "title": "Recipe 19",
+    "title": "Spaghetti Carbonara #5",
+    "cuisine": "Italian",
     "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Indian",
     "difficulty": "Medium",
-    "cookingTime": 53,
-    "servings": 5,
-    "dietaryTags": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      {
-        "id": "i191",
-        "name": "Ingredient A",
-        "quantity": 119,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i192",
-        "name": "Ingredient B",
-        "quantity": 21,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 295,
-      "protein": 29,
-      "carbs": 68,
-      "fat": 14
-    },
-    "rating": 3.9
-  },
-  {
-    "id": "20",
-    "title": "Recipe 20",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Japanese",
-    "difficulty": "Hard",
-    "cookingTime": 55,
-    "servings": 1,
-    "dietaryTags": [
-      "Vegan"
-    ],
-    "ingredients": [
-      {
-        "id": "i201",
-        "name": "Ingredient A",
-        "quantity": 120,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i202",
-        "name": "Ingredient B",
-        "quantity": 22,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 300,
-      "protein": 10,
-      "carbs": 70,
-      "fat": 5
-    },
-    "rating": 4.0
-  },
-  {
-    "id": "21",
-    "title": "Recipe 21",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Mexican",
-    "difficulty": "Easy",
-    "cookingTime": 57,
-    "servings": 2,
-    "dietaryTags": [
-      "Low-Carb"
-    ],
-    "ingredients": [
-      {
-        "id": "i211",
-        "name": "Ingredient A",
-        "quantity": 121,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i212",
-        "name": "Ingredient B",
-        "quantity": 23,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 305,
-      "protein": 11,
-      "carbs": 72,
-      "fat": 6
-    },
-    "rating": 4.1
-  },
-  {
-    "id": "22",
-    "title": "Recipe 22",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Brazilian",
-    "difficulty": "Medium",
-    "cookingTime": 59,
-    "servings": 3,
-    "dietaryTags": [
-      "High-Protein"
-    ],
-    "ingredients": [
-      {
-        "id": "i221",
-        "name": "Ingredient A",
-        "quantity": 122,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i222",
-        "name": "Ingredient B",
-        "quantity": 24,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 310,
-      "protein": 12,
-      "carbs": 74,
-      "fat": 7
-    },
-    "rating": 4.2
-  },
-  {
-    "id": "23",
-    "title": "Recipe 23",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "French",
-    "difficulty": "Hard",
-    "cookingTime": 61,
+    "cookingTime": 25,
     "servings": 4,
     "dietaryTags": [
-      "Pescatarian"
+      "pasta",
+      "comfort food"
     ],
     "ingredients": [
       {
-        "id": "i231",
-        "name": "Ingredient A",
-        "quantity": 123,
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
         "unit": "g",
-        "category": "produce"
+        "category": "pantry"
       },
       {
-        "id": "i232",
-        "name": "Ingredient B",
-        "quantity": 25,
-        "unit": "pcs",
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
         "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
       }
     ],
     "instructions": [
       {
         "order": 1,
-        "description": "Step 1: Do something."
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
       },
       {
         "order": 2,
-        "description": "Step 2: Continue cooking."
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
       }
     ],
     "nutrition": {
-      "calories": 315,
-      "protein": 13,
-      "carbs": 76,
-      "fat": 8
-    },
-    "rating": 4.3
-  },
-  {
-    "id": "24",
-    "title": "Recipe 24",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Italian",
-    "difficulty": "Easy",
-    "cookingTime": 63,
-    "servings": 5,
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i241",
-        "name": "Ingredient A",
-        "quantity": 124,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i242",
-        "name": "Ingredient B",
-        "quantity": 26,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 320,
-      "protein": 14,
-      "carbs": 78,
-      "fat": 9
-    },
-    "rating": 4.4
-  },
-  {
-    "id": "25",
-    "title": "Recipe 25",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Indian",
-    "difficulty": "Medium",
-    "cookingTime": 65,
-    "servings": 1,
-    "dietaryTags": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      {
-        "id": "i251",
-        "name": "Ingredient A",
-        "quantity": 125,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i252",
-        "name": "Ingredient B",
-        "quantity": 27,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 325,
-      "protein": 15,
-      "carbs": 30,
-      "fat": 10
-    },
-    "rating": 4.5
-  },
-  {
-    "id": "26",
-    "title": "Recipe 26",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Japanese",
-    "difficulty": "Hard",
-    "cookingTime": 67,
-    "servings": 2,
-    "dietaryTags": [
-      "Vegan"
-    ],
-    "ingredients": [
-      {
-        "id": "i261",
-        "name": "Ingredient A",
-        "quantity": 126,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i262",
-        "name": "Ingredient B",
-        "quantity": 28,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 330,
-      "protein": 16,
-      "carbs": 32,
-      "fat": 11
-    },
-    "rating": 4.6
-  },
-  {
-    "id": "27",
-    "title": "Recipe 27",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Mexican",
-    "difficulty": "Easy",
-    "cookingTime": 69,
-    "servings": 3,
-    "dietaryTags": [
-      "Low-Carb"
-    ],
-    "ingredients": [
-      {
-        "id": "i271",
-        "name": "Ingredient A",
-        "quantity": 127,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i272",
-        "name": "Ingredient B",
-        "quantity": 29,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 335,
-      "protein": 17,
-      "carbs": 34,
-      "fat": 12
-    },
-    "rating": 4.7
-  },
-  {
-    "id": "28",
-    "title": "Recipe 28",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Brazilian",
-    "difficulty": "Medium",
-    "cookingTime": 71,
-    "servings": 4,
-    "dietaryTags": [
-      "High-Protein"
-    ],
-    "ingredients": [
-      {
-        "id": "i281",
-        "name": "Ingredient A",
-        "quantity": 128,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i282",
-        "name": "Ingredient B",
-        "quantity": 30,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 340,
-      "protein": 18,
-      "carbs": 36,
-      "fat": 13
-    },
-    "rating": 4.8
-  },
-  {
-    "id": "29",
-    "title": "Recipe 29",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "French",
-    "difficulty": "Hard",
-    "cookingTime": 73,
-    "servings": 5,
-    "dietaryTags": [
-      "Pescatarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i291",
-        "name": "Ingredient A",
-        "quantity": 129,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i292",
-        "name": "Ingredient B",
-        "quantity": 31,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 345,
-      "protein": 19,
-      "carbs": 38,
-      "fat": 14
-    },
-    "rating": 4.9
-  },
-  {
-    "id": "30",
-    "title": "Recipe 30",
-    "image": "https://picsum.photos/id/292/200/300",
-    "cuisine": "Italian",
-    "difficulty": "Easy",
-    "cookingTime": 15,
-    "servings": 1,
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      {
-        "id": "i301",
-        "name": "Ingredient A",
-        "quantity": 130,
-        "unit": "g",
-        "category": "produce"
-      },
-      {
-        "id": "i302",
-        "name": "Ingredient B",
-        "quantity": 32,
-        "unit": "pcs",
-        "category": "dairy"
-      }
-    ],
-    "instructions": [
-      {
-        "order": 1,
-        "description": "Step 1: Do something."
-      },
-      {
-        "order": 2,
-        "description": "Step 2: Continue cooking."
-      }
-    ],
-    "nutrition": {
-      "calories": 350,
+      "calories": 480,
       "protein": 20,
-      "carbs": 40,
-      "fat": 5
+      "carbs": 55,
+      "fat": 18
     },
-    "rating": 3.5
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "5"
+  },
+  {
+    "title": "Chicken Tikka Masala #6",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "6"
+  },
+  {
+    "title": "Spaghetti Carbonara #7",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "7"
+  },
+  {
+    "title": "Chicken Tikka Masala #8",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "8"
+  },
+  {
+    "title": "Spaghetti Carbonara #9",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "9"
+  },
+  {
+    "title": "Chicken Tikka Masala #10",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "10"
+  },
+  {
+    "title": "Spaghetti Carbonara #11",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "11"
+  },
+  {
+    "title": "Chicken Tikka Masala #12",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "12"
+  },
+  {
+    "title": "Spaghetti Carbonara #13",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "13"
+  },
+  {
+    "title": "Chicken Tikka Masala #14",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "14"
+  },
+  {
+    "title": "Spaghetti Carbonara #15",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "15"
+  },
+  {
+    "title": "Chicken Tikka Masala #16",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "16"
+  },
+  {
+    "title": "Spaghetti Carbonara #17",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "17"
+  },
+  {
+    "title": "Chicken Tikka Masala #18",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "18"
+  },
+  {
+    "title": "Spaghetti Carbonara #19",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "19"
+  },
+  {
+    "title": "Chicken Tikka Masala #20",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "20"
+  },
+  {
+    "title": "Spaghetti Carbonara #21",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "21"
+  },
+  {
+    "title": "Chicken Tikka Masala #22",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "22"
+  },
+  {
+    "title": "Spaghetti Carbonara #23",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "23"
+  },
+  {
+    "title": "Chicken Tikka Masala #24",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "24"
+  },
+  {
+    "title": "Spaghetti Carbonara #25",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "25"
+  },
+  {
+    "title": "Chicken Tikka Masala #26",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "26"
+  },
+  {
+    "title": "Spaghetti Carbonara #27",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "27"
+  },
+  {
+    "title": "Chicken Tikka Masala #28",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "28"
+  },
+  {
+    "title": "Spaghetti Carbonara #29",
+    "cuisine": "Italian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Medium",
+    "cookingTime": 25,
+    "servings": 4,
+    "dietaryTags": [
+      "pasta",
+      "comfort food"
+    ],
+    "ingredients": [
+      {
+        "id": "i1",
+        "name": "Spaghetti",
+        "quantity": 400,
+        "unit": "g",
+        "category": "pantry"
+      },
+      {
+        "id": "i2",
+        "name": "Egg yolks",
+        "quantity": 4,
+        "unit": "unit",
+        "category": "dairy"
+      },
+      {
+        "id": "i3",
+        "name": "Pancetta",
+        "quantity": 150,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i4",
+        "name": "Parmesan cheese",
+        "quantity": 80,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i5",
+        "name": "Black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i6",
+        "name": "Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Cook spaghetti in salted boiling water until al dente.",
+        "duration": 10
+      },
+      {
+        "order": 2,
+        "description": "Fry pancetta until crispy.",
+        "duration": 5
+      },
+      {
+        "order": 3,
+        "description": "Whisk egg yolks with Parmesan and black pepper.",
+        "duration": 2
+      },
+      {
+        "order": 4,
+        "description": "Drain pasta, reserving some water. Mix quickly with egg mixture and pancetta.",
+        "duration": 3
+      },
+      {
+        "order": 5,
+        "description": "Adjust consistency with pasta water, serve immediately.",
+        "duration": 5
+      }
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 55,
+      "fat": 18
+    },
+    "rating": 4.7,
+    "notes": [
+      "Use freshly grated Parmesan",
+      "Do not scramble the eggs"
+    ],
+    "sourceUrl": "https://example.com/spaghetti-carbonara",
+    "id": "29"
+  },
+  {
+    "title": "Chicken Tikka Masala #30",
+    "cuisine": "Indian",
+    "image": "https://picsum.photos/id/292/200/300",
+    "difficulty": "Hard",
+    "cookingTime": 60,
+    "servings": 4,
+    "dietaryTags": [
+      "spicy",
+      "curry",
+      "gluten-free"
+    ],
+    "ingredients": [
+      {
+        "id": "i7",
+        "name": "Chicken breast",
+        "quantity": 500,
+        "unit": "g",
+        "category": "meat"
+      },
+      {
+        "id": "i8",
+        "name": "Yogurt",
+        "quantity": 150,
+        "unit": "g",
+        "category": "dairy"
+      },
+      {
+        "id": "i9",
+        "name": "Garlic",
+        "quantity": 3,
+        "unit": "cloves",
+        "category": "produce"
+      },
+      {
+        "id": "i10",
+        "name": "Ginger",
+        "quantity": 20,
+        "unit": "g",
+        "category": "produce"
+      },
+      {
+        "id": "i11",
+        "name": "Onion",
+        "quantity": 1,
+        "unit": "unit",
+        "category": "produce"
+      },
+      {
+        "id": "i12",
+        "name": "Tomato puree",
+        "quantity": 200,
+        "unit": "ml",
+        "category": "pantry"
+      },
+      {
+        "id": "i13",
+        "name": "Garam masala",
+        "quantity": 2,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i14",
+        "name": "Cumin",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i15",
+        "name": "Chili powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "category": "spices"
+      },
+      {
+        "id": "i16",
+        "name": "Cream",
+        "quantity": 100,
+        "unit": "ml",
+        "category": "dairy"
+      }
+    ],
+    "instructions": [
+      {
+        "order": 1,
+        "description": "Marinate chicken with yogurt, garlic, ginger, and spices for at least 1h."
+      },
+      {
+        "order": 2,
+        "description": "Grill or pan-fry marinated chicken until browned."
+      },
+      {
+        "order": 3,
+        "description": "Fry onion with spices, then add tomato puree and simmer."
+      },
+      {
+        "order": 4,
+        "description": "Add cream and cooked chicken, simmer until thickened."
+      },
+      {
+        "order": 5,
+        "description": "Serve with rice or naan bread."
+      }
+    ],
+    "nutrition": {
+      "calories": 550,
+      "protein": 35,
+      "carbs": 25,
+      "fat": 32
+    },
+    "rating": 4.8,
+    "notes": [
+      "Best with basmati rice",
+      "Marinate overnight for deeper flavor"
+    ],
+    "sourceUrl": "https://example.com/chicken-tikka-masala",
+    "id": "30"
   }
 ]
