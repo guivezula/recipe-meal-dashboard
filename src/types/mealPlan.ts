@@ -1,21 +1,29 @@
-import type { NutritionInfo } from "./recipe";
+import type { NutritionInfo, Recipe } from "./recipe";
 
+export type MealType = "Breakfast" | "Lunch" | "Dinner";
 
-export type MealType = "breakfast" | "lunch" | "dinner";
+export type Weekday =
+  | "Sunday"
+  | "Monday"
+  | "Tuesday"
+  | "Wednesday"
+  | "Thursday"
+  | "Friday"
+  | "Saturday";
 
 export interface MealSlot {
   type: MealType;
-  recipeId: string;
+  recipe: Recipe;
 }
 
 export interface DayPlan {
   date: string;
+  weekday?: Weekday;
   meals: MealSlot[];
-  nutritionSummary: NutritionInfo; 
+  nutritionSummary?: NutritionInfo;
 }
 
 export interface MealPlan {
   id: string;
-  weekStart: string;
   days: DayPlan[];
 }

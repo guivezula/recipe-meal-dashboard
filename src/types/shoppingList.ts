@@ -1,17 +1,14 @@
-import type { IngredientCategory } from "./recipe";
-
+import type { Ingredient } from "./recipe";
 
 export interface ShoppingItem {
   id: string;
-  ingredientName: string;
-  quantity: number;
-  unit: string;
-  category: IngredientCategory;
-  haveAlready: boolean;
+  ingredient: Ingredient;
+  price?: number;
+  haveAlready?: boolean;
 }
 
 export interface ShoppingList {
   id: string;
-  weekPlanId: string; 
   items: ShoppingItem[];
+  totalCost?: number;
 }

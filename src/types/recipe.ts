@@ -15,10 +15,10 @@ export interface Ingredient {
 }
 
 export interface NutritionInfo {
-  calories: number;
-  protein: number; // g
-  carbs: number;   // g
-  fat: number;     // g
+  calories?: number;
+  protein: number;
+  carbs: number;
+  fat: number;
 }
 
 export interface Step {
