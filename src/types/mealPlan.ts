@@ -11,19 +11,13 @@ export type Weekday =
   | "Friday"
   | "Saturday";
 
-export interface MealSlot {
+export interface MealPlan {
+  id: string;
+  weekday: Weekday;
   type: MealType;
   recipe: Recipe;
 }
 
-export interface DayPlan {
-  date: string;
-  weekday?: Weekday;
-  meals: MealSlot[];
-  nutritionSummary?: NutritionInfo;
-}
-
-export interface MealPlan {
-  id: string;
-  days: DayPlan[];
-}
+export type MealPlanNutrition = {
+  [W in Weekday]?: NutritionInfo;
+};

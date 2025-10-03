@@ -25,19 +25,19 @@ function RecipeList() {
         setFilter(filter as string);
     }
 
-    return <div className={CLASS_NAME}>
-        <Header>
-            Recipes
-        </Header>
+    return (
+      <div className={CLASS_NAME}>
+        <Header>Recipes</Header>
         <Filter placeholder="Search here ..." onSearch={handleFilter}>
-            <Button>Meal Planner</Button>
+          <Button>Weekly Meal Planner</Button>
         </Filter>
         <div className={`${CLASS_NAME}__list`}>
-            {recipes.map((recipe) => (
-                <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
+          {recipes.map((recipe) => (
+            <RecipeCard key={recipe.id} recipe={recipe} />
+          ))}
         </div>
-    </div>
+      </div>
+    );
 }
 
 export default RecipeList;
