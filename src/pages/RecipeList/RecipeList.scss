@@ -1,0 +1,33 @@
+
+@use "../../styles/mobile.scss";
+
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin: auto;
+
+    &__list {
+        display: flex;
+        gap: 24px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 24px 0;
+
+        & > * {
+            width: 302px;
+        }
+    }
+
+    @include mobile.respond-to(mobile) {
+
+        &__list {
+            flex-direction: column;
+
+            & > * {
+                width: 100%;
+            }
+        }
+    }
+}

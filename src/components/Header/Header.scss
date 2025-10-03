@@ -1,0 +1,26 @@
+.header {
+    display: block;
+    margin: 36px 0;
+    &__title {
+        font-size: 2.5em;
+        line-height: 1.1;
+        text-align: left;
+    }
+
+    &__line {
+        background-color: #e1e1e1;
+        height: 2px;
+        width: 100%;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 72px;
+            height: 4px;
+            background-color: #ff6a28;
+            top: -2px;
+            left: 0;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@use "../../styles/mobile.scss";
+
+.filter {
+    background: #fff;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+
+    &--children {
+        justify-content: space-between;
+    }
+
+    .search {
+        max-width: 320px;
+    }
+
+    @include mobile.respond-to(mobile) {
+        gap: 12px;
+        flex-direction: column-reverse;
+        align-items: unset;
+        padding: 12px 0;
+
+        .search {
+            max-width: unset;
+            width: unset;
+        }
+
+        .button {
+            width: 100%;
+        }
+    }
+    
+}
