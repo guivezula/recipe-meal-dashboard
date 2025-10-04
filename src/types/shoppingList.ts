@@ -1,14 +1,10 @@
-import type { Ingredient } from "./recipe";
+import type { Ingredient, IngredientCategory } from "./recipe";
 
-export interface ShoppingItem {
-  id: string;
-  ingredient: Ingredient;
+export interface ShoppingItem extends Ingredient {
   price?: number;
   haveAlready?: boolean;
 }
 
-export interface ShoppingList {
-  id: string;
-  items: ShoppingItem[];
-  totalCost?: number;
-}
+export type ShoppingList = {
+  [I in IngredientCategory]?: ShoppingItem[];
+};
