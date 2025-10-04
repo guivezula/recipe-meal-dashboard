@@ -1,7 +1,6 @@
-import { createReducer } from "@reduxjs/toolkit";
+import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import type { MealPlan, MealPlanNutrition } from "../../types/mealPlan";
-import type { NutritionInfo } from "../../types/recipe";
-import { addMealPlan, removeAllMealPlan, removeMealPlan } from "./mealPlanActions";
+import Helper from "./mealPlanHelper";
 
 interface MealPlanState {
   list: MealPlan[];
@@ -13,78 +12,60 @@ const initialState: MealPlanState = {
   nutritionSummary: {},
 };
 
-function sumNutrition(a: NutritionInfo, b: NutritionInfo): NutritionInfo {
-  return {
-    calories: (a.calories ?? 0) + (b.calories ?? 0),
-    protein: a.protein + b.protein,
-    carbs: a.carbs + b.carbs,
-    fat: a.fat + b.fat,
-  };
-}
+const mealPlanSlice = createSlice({
+  name: "mealPlan",
+  initialState,
+  reducers: {
+    addMealPlan: (state, action: PayloadAction<MealPlan>) => {
+      const { weekday, recipe } = action.payload;
 
-function subtractNutrition(a: NutritionInfo, b: NutritionInfo): NutritionInfo {
-  return {
-    calories: (a.calories ?? 0) - (b.calories ?? 0),
-    protein: a.protein - b.protein,
-    carbs: a.carbs - b.carbs,
-    fat: a.fat - b.fat,
-  };
-}
+      state.list.push(action.payload);
 
-export const mealPlanReducer = createReducer(initialState, (builder) => {
-  builder.addCase(addMealPlan, (state, action) => {
-    state.list.push(action.payload);
-
-    const {
-      weekday,
-      recipe: { nutrition },
-    } = action.payload;
-    const existing = state.nutritionSummary[weekday];
-
-    if (existing) {
-      state.nutritionSummary[weekday] = sumNutrition(existing, nutrition);
-    } else {
-      state.nutritionSummary[weekday] = { ...nutrition };
-    }
-  });
-
-  builder.addCase(removeMealPlan, (state, action) => {
-    const mealId = action.payload;
-    const mealIndex = state.list.findIndex((m) => m.id === mealId);
-
-    if (mealIndex !== -1) {
-      const meal = state.list[mealIndex];
-
-      const recipeNutrition = meal.recipe.nutrition;
-      const existing = state.nutritionSummary[meal.weekday];
-
+      const existing = state.nutritionSummary[weekday];
       if (existing) {
-        state.nutritionSummary[meal.weekday] = subtractNutrition(
+        state.nutritionSummary[weekday] = Helper.sumNutrition(
           existing,
-          recipeNutrition
+          recipe.nutrition
         );
+      } else {
+        state.nutritionSummary[weekday] = { ...recipe.nutrition };
+      }
+    },
 
-        const { calories, protein, carbs, fat } =
-          state.nutritionSummary[meal.weekday]!;
+    removeMealPlan: (state, action: PayloadAction<string>) => {
+      const mealId = action.payload;
+      const mealIndex = state.list.findIndex((m) => m.id === mealId);
 
-        if (
-          calories &&
-          calories <= 0 &&
-          protein <= 0 &&
-          carbs <= 0 &&
-          fat <= 0
-        ) {
-          delete state.nutritionSummary[meal.weekday];
-        }
+      if (mealIndex === -1) return;
+
+      const meal = state.list[mealIndex];
+      const existing = state.nutritionSummary[meal.weekday];
+      if (!existing) return;
+
+      const updated = Helper.subtractNutrition(existing, meal.recipe.nutrition);
+
+      const allZero =
+        (updated.calories ?? 0) <= 0 &&
+        updated.protein <= 0 &&
+        updated.carbs <= 0 &&
+        updated.fat <= 0;
+
+      if (allZero) {
+        delete state.nutritionSummary[meal.weekday];
+      } else {
+        state.nutritionSummary[meal.weekday] = updated;
       }
 
       state.list.splice(mealIndex, 1);
-    }
-  });
+    },
 
-  builder.addCase(removeAllMealPlan, (state) => ({
-    ...state,
-    list: [],
-    nutritionSummary: {},
-  }));
+    removeAllMealPlan: (state) => {
+      state.list = [];
+      state.nutritionSummary = {};
+    },
+  },
 });
+
+export const { addMealPlan, removeMealPlan, removeAllMealPlan } =
+  mealPlanSlice.actions;
+export default mealPlanSlice.reducer;

@@ -2,7 +2,10 @@ import type React from "react";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { useAppDispatch } from "../../app/hooks";
-import { addMealPlan, removeMealPlan } from "../../features/mealPlan/mealPlanActions";
+import {
+  addMealPlan,
+  removeMealPlan,
+} from "../../features/mealPlan/mealPlanReducer";
 import { selectAllMeals, selectSummaryNutrition } from "../../features/mealPlan/mealPlanSelectors";
 import { selectAllRecipes } from "../../features/recipes/recipesSelectors";
 import { type MealPlan, type MealType, type Weekday } from "../../types/mealPlan";

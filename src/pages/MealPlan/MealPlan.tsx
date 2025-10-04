@@ -3,7 +3,7 @@ import { useAppDispatch } from "../../app/hooks";
 import Button from "../../components/Button/Button";
 import CalendarGrid from "../../components/CalendarGrid/CalendarGrid";
 import Header from "../../components/Header/Header";
-import { removeAllMealPlan } from "../../features/mealPlan/mealPlanActions";
+import { removeAllMealPlan } from "../../features/mealPlan/mealPlanReducer";
 import "./MealPlan.scss";
 
 const CLASS_NAME = "meal-plan";

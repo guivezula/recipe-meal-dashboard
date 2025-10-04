@@ -23,6 +23,6 @@ const fetchRecipes = async (filter?: String): Promise<Recipe[]> => {
     .catch((error) => error);
 };
 
-export const RecipesService = {
-    fetchRecipes
-}
+export default {
+  fetchRecipes,
+};

@@ -11,7 +11,7 @@ import RecipeDetails from "../../components/RecipeDetails/RecipeDetails";
 import {
   getRecipes,
   setSelectedRecipe,
-} from "../../features/recipes/recipesActions";
+} from "../../features/recipes/recipesReducer";
 import {
   selectAllRecipes,
   selectRecipe,
