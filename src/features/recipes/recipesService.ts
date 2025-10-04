@@ -1,5 +1,11 @@
 import type { Recipe } from "../../types/recipe";
 
+/**
+ * This service fetch the mock recipe date created in the JSON file
+ * It receives a filter as params as it's not an API the filter is made by locally 
+ * @param {any} filter?:String
+ * @returns {any}
+ */
 const fetchRecipes = async (filter?: String): Promise<Recipe[]> => {
   return fetch("/data/recipes.json")
     .then((res) => res.json())

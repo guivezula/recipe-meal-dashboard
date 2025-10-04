@@ -12,6 +12,14 @@ const initialState: MealPlanState = {
   nutritionSummary: {},
 };
 
+/**
+ * IA generated code, this method create the reducer slice to add the actions to manage the local storage
+ * @param {any} {name:"mealPlan"
+ * @param {any} initialState
+ * @param {any} reducers:{addMealPlan:(state
+ * @param {any} action:PayloadAction<MealPlan>
+ * @returns {any}
+ */
 const mealPlanSlice = createSlice({
   name: "mealPlan",
   initialState,
