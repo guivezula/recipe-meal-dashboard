@@ -1,0 +1,29 @@
+.button-icon {
+    all:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+
+    z-index: 1;
+    box-sizing: border-box;
+
+    .icon {
+        z-index: 2;
+    }
+
+    &--border {
+        border: 1px solid #e1e1e1;
+    }
+
+    &:hover {
+        background-color: rgba(178, 173, 176, 0.09)
+    }
+
+}

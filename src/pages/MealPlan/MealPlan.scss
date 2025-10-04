@@ -1,0 +1,27 @@
+@use "../../styles/mobile.scss";
+
+.meal-plan {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: auto;
+
+  &__actions {
+    background: #fff;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: flex-end;
+  }
+
+  @include mobile.respond-to(mobile) {
+    &__actions {
+        padding: 12px 0;
+        flex-direction: column-reverse;
+        align-items: unset;
+        gap: 12px;
+    }
+  }
+}

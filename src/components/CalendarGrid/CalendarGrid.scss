@@ -1,0 +1,83 @@
+@use "../../styles/mobile.scss";
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+  padding: 24px 0;
+
+  @include mobile.respond-to(mobile) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    padding: 0.5rem;
+    background: #fafafa;
+  }
+
+  &__weekday {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  &__summary {
+    margin-top: auto;
+    padding: 0.3rem;
+
+    background: #f0f0f0;
+    border-radius: 4px;
+
+    &__item {
+      margin: 0;
+      text-align: center;
+      font-size: 0.7rem;
+      font-weight: bold;
+    }
+  }
+
+  &__modal {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &__recipes {
+      background: #fff;
+      border: 1px solid #e1e1e1;
+      color: #666;
+      font-size: 1rem;
+      outline: 0;
+      padding: 8px 12px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      vertical-align: middle;
+      width: 100%;
+      display: flex;
+      cursor: pointer;
+
+      &:hover {
+        border-color: #a2a2a2;
+      }
+    }
+
+    &__texts {
+      &__item {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        font-size: 0.8rem;
+      }
+    }
+
+    &__actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+  }
+}
