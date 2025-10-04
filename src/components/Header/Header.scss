@@ -1,45 +1,53 @@
+@use "../../styles/mobile.scss";
+
 .header {
-    display: block;
-    margin: 36px 0;
-    &__header {
-        display: flex;
-        align-items: center;
+  display: block;
+  margin: 36px 0;
+  &__header {
+    display: flex;
+    align-items: center;
 
-        &--button {
-            gap: 24px;
+    &--button {
+      gap: 24px;
 
-            .button-icon {
-                width: 48px;
-                height: 48px;
+      @include mobile.respond-to(desktop) {
+        .button-icon {
+          width: 48px;
+          height: 48px;
 
-                .icon {
-                    width: 36px;
-                    height: 36px;
-                }
-            }
+          .icon {
+            width: 36px;
+            height: 36px;
+          }
         }
-    }
+      }
 
-    &__title {
-        font-size: 2.5em;
-        line-height: 1.1;
-        text-align: left;
+      @include mobile.respond-to(mobile) {
+        gap: 12px;
+      }
     }
+  }
 
-    &__line {
-        background-color: #e1e1e1;
-        height: 2px;
-        width: 100%;
-        position: relative;
+  &__title {
+    font-size: 2.5em;
+    line-height: 1.1;
+    text-align: left;
+  }
 
-        &::after {
-            content: '';
-            position: absolute;
-            width: 72px;
-            height: 4px;
-            background-color: #ff6a28;
-            top: -2px;
-            left: 0;
-        }
+  &__line {
+    background-color: #e1e1e1;
+    height: 2px;
+    width: 100%;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 72px;
+      height: 4px;
+      background-color: #ff6a28;
+      top: -2px;
+      left: 0;
     }
+  }
 }
