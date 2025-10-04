@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import MealPlan from "./pages/MealPlan/MealPlan";
 import RecipeList from "./pages/RecipeList/RecipeList";
+import ShoppingList from "./pages/ShoppingList/ShoppingList";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Route path="/recipes" element={<RecipeList />} />
 
         <Route path="/meal-plan" element={<MealPlan />} />
+
+        <Route path="/shopping-list" element={<ShoppingList />} />
       </Routes>
     </BrowserRouter>
   );

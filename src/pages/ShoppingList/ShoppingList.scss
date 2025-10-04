@@ -1,0 +1,49 @@
+@use "../../styles/mobile.scss";
+
+.shopping-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: auto;
+  gap: 24px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &__category {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #e1e1e1;
+      border-radius: 6px;
+      padding: 1rem;
+      background: #fafafa;
+
+      &__heading {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  &__total-cost {
+    padding: 16px;
+    background: #f0f0f0;
+    border-radius: 8px;
+
+    &__item {
+      margin: 0;
+      text-align: center;
+      font-size: 1.50.7rem;
+      font-weight: bold;
+    }
+  }
+
+  @include mobile.respond-to(mobile) {
+  }
+}

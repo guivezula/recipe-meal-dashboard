@@ -57,11 +57,13 @@ const CalendarGrid: React.FC<CalendarGridProps> = ({ ...props }) => {
   }
 
   const handleSelectChange = (recipe: Recipe) => {
-    setPayload({
-      ...payload,
-      recipe,
-    })
-  }
+    if (recipe) {
+      setPayload({
+        ...payload,
+        recipe,
+      });
+    }
+  };
 
   const handleRecipeSave = () => {
     if (payload) {
@@ -71,19 +73,23 @@ const CalendarGrid: React.FC<CalendarGridProps> = ({ ...props }) => {
         type: payload.type!,
         weekday: payload.weekday!,
       };
-      
+
       dispatch(addMealPlan(meal));
       setModalOpen(false);
+      setPayload({});
     }
-  }
+  };
 
   const handleRecipeDelete = (id: string) => {
     dispatch(removeMealPlan(id));
-  }
+  };
 
-  const getMealPlan = (weekday: Weekday, type: MealType): MealPlan | undefined => {
-    return meals.find(meal => meal.weekday === weekday && meal.type === type);
-  }
+  const getMealPlan = (
+    weekday: Weekday,
+    type: MealType
+  ): MealPlan | undefined => {
+    return meals.find((meal) => meal.weekday === weekday && meal.type === type);
+  };
 
   return (
     <div className={CLASS_NAME} {...props}>
@@ -96,7 +102,9 @@ const CalendarGrid: React.FC<CalendarGridProps> = ({ ...props }) => {
               mealType={type}
               mealPlan={getMealPlan(day, type)}
               onAddClick={() => handleModalOpen(day, type)}
-              onRemoveClick={() => handleRecipeDelete(getMealPlan(day, type)?.id!)}
+              onRemoveClick={() =>
+                handleRecipeDelete(getMealPlan(day, type)?.id!)
+              }
             />
           ))}
           <div className={`${CLASS_NAME}__summary`}>
@@ -121,11 +129,9 @@ const CalendarGrid: React.FC<CalendarGridProps> = ({ ...props }) => {
             className={`${CLASS_NAME}__modal__recipes`}
             onChange={(e) => handleSelectChange(JSON.parse(e.target.value))}
           >
+            <option value={undefined}>Select a recipe</option>
             {recipes.map((recipe) => (
-              <option
-                key={recipe.id}
-                value={JSON.stringify(recipe)}
-              >
+              <option key={recipe.id} value={JSON.stringify(recipe)}>
                 {recipe.title}
               </option>
             ))}
@@ -139,7 +145,9 @@ const CalendarGrid: React.FC<CalendarGridProps> = ({ ...props }) => {
             </p>
           </div>
           <div className={`${CLASS_NAME}__modal__actions`}>
-            <Button onClick={handleRecipeSave}>Save</Button>
+            <Button onClick={handleRecipeSave} disabled={!payload?.recipe}>
+              Save
+            </Button>
             <Button onClick={handleModalClose}>Cancel</Button>
           </div>
         </div>

@@ -1,0 +1,60 @@
+.ingredient-form {
+  border: 1px dashed #e1e1e1;
+  border-radius: 4px;
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  text-align: center;
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__inputs {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__input {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    color: #666;
+    font-size: 0.9rem;
+    outline: 0;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    vertical-align: middle;
+    display: flex;
+
+    &:hover {
+      border-color: #a2a2a2;
+    }
+
+    &:disabled {
+        background: #e1e1e1;
+        cursor: not-allowed;
+    }
+  }
+
+  &__label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+
+    &--add {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--save {
+        gap: 4px;
+    }
+  }
+}
