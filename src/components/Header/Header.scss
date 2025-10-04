@@ -1,6 +1,25 @@
 .header {
     display: block;
     margin: 36px 0;
+    &__header {
+        display: flex;
+        align-items: center;
+
+        &--button {
+            gap: 24px;
+
+            .button-icon {
+                width: 48px;
+                height: 48px;
+
+                .icon {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+        }
+    }
+
     &__title {
         font-size: 2.5em;
         line-height: 1.1;
