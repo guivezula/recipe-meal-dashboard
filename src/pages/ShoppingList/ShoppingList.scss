@@ -45,5 +45,10 @@
   }
 
   @include mobile.respond-to(mobile) {
+    gap: 12px;
+
+    &__list {
+      gap: 12px;
+    }
   }
 }

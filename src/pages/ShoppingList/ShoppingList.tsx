@@ -88,7 +88,7 @@ function ShoppingListPage() {
       </Header>
       <div className={`${CLASS_NAME}__total-cost`}>
         <p className={`${CLASS_NAME}__total-cost__item`}>
-          {`Total Cost: ${totalCost}`}
+          {`Total Cost: ${totalCost.toFixed(2)}`}
         </p>
       </div>
       <div className={`${CLASS_NAME}__list`}>
@@ -125,7 +125,6 @@ function ShoppingListPage() {
           );
         })}
       </div>
-      
     </div>
   );
 }
