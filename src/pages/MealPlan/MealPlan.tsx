@@ -36,7 +36,9 @@ function MealPlan() {
       </Header>
       <div className={`${CLASS_NAME}__actions`}>
         <Button onClick={handleClearCalendar}>Clear Calendar</Button>
-        <Button onClick={handleGenerateShopping}>Generate Shopping List</Button>
+        <Button disabled={meals.length <= 0} onClick={handleGenerateShopping}>
+          Generate Shopping List
+        </Button>
       </div>
       <CalendarGrid />
     </div>
